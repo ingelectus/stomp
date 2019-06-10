@@ -683,3 +683,8 @@ func (c *Conn) createAckNackFrame(msg *Message, ack bool) (*frame.Frame, error) 
 
 	return f, nil
 }
+
+// IsClosed checks if active stomp connection is closed
+func (c *Conn) IsClosed() bool {
+	return c.closed
+}
