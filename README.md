@@ -2,7 +2,7 @@
 
 Go language implementation of a STOMP client library.
 
-[![Build Status](https://travis-ci.org/go-stomp/stomp.svg?branch=master)](https://travis-ci.org/go-stomp/stomp)
+[![Build Status](https://travis-ci.org/ingelectus/stomp.svg?branch=master)](https://travis-ci.org/ingelectus/stomp)
 
 Features:
 
@@ -14,10 +14,10 @@ Features:
 ## Usage Instructions
 
 ```
-go get github.com/go-stomp/stomp
+go get github.com/ingelectus/stomp
 ```
 
-For API documentation, see http://godoc.org/github.com/go-stomp/stomp
+For API documentation, see http://godoc.org/github.com/ingelectus/stomp
 
 ## Previous Version
 
